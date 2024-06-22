@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url('images/background.jfif');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-size: cover;
+   height: 100vh;
+   width: 100vh;   
+}
+nav{
+    height: 75px;
+    width: 100vw;
+    padding: 0px 30px;
+    font-family: calibri;
+    /* border: 1px solid black; */
+}
+nav .logo p{
+    font-size: 40px;
+    width: 100px;
+    font-weight:bold;
+    color: black;
+    float: left;
+    /* border: 1px solid white; */
+    padding:0 10px;
+    /* border-radius: 50%; */
+    margin-top: 20px;
+    cursor: pointer;
+    /* background-color: black; */
+    letter-spacing: 3px;
+    /* transition: width 2s; */
+    text-shadow:0px 0px 10px #fe019a,
+                0px 0px 10px #fe019a,
+                0px 0px 10px #fe019a,
+                0px 0px 10px #fe019a;
+
+}
+ nav .logo p:hover{
+    /* background-color: #fe019a; */
+    color: white;
+    /* box-shadow: 4px 5px 3px black; */
+    /* padding: 0px 30px ; */
+    /* width: 100px; */
+
+}
+.logo img{
+    height: 50px;
+    float: left;
+    margin-top: 20px;    
+}
+
+nav ul{
+    float: right;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    margin: 0px 15px;
+    border: 1px solid black;
+    margin:  30px;
+    padding: 2px 5px;
+    /* border-radius:5px; */
+    background-color: orangered;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 50px;
+    text-transform: capitalize;
+    border-radius: 10px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li:hover{
+    background-color:white;
+    box-shadow: 3px 4px 2px black;
+    text-shadow: 0px 0px 0px black;    
+    
+}
+ul li a:hover{
+    color: black;
+}
+.ice{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 15%;
+    left:65%;
+    
+}
+.ice img{
+    width:25vw;
+    transition: transform 0.3s ease;   
+}
+.ice img:hover{
+    transform: scale(1.1);
+}
+.image-container{
+    width: 500px;
+    height: 160px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between; 
+    position: absolute;
+    top: 58%;
+    left: 2%;
+    margin: 30px ;
+    margin-left: 150px;
+    margin-top: 30px;
+    box-shadow: 20px 10px 20px black, -10px 5px 20px black;
+    padding: 0 50px;
+    border: 2px solid black;   
+      
+}
+.image-container img{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+.img1{
+    /* border: 1px solid black; */
+    display: inline-block;
+    gap: 30px;  
+    transition: transform 0.3s ease;    
+
+}
+.img1:hover{
+    box-shadow: 5px 5px 5px black, -5px -5px 10px black; 
+    transform: scale(1.4);
+    border: 2px;
+
+}
+.quote{
+    height: 220px;
+    width: 600px;
+    /* background-color: red; */
+    margin: 40px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+#quote1{
+    padding: 0px 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight:bold;
+    
+}
+#quote2{
+    padding-left: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:  "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.quote-content{
+    padding: 30px;
+    margin-left: 20;
+}
+#btn{
+    background-color:rgb(156, 219, 238);
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 50%;
+    top: 289px;
+    margin: 0px 0px 40px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background color 0.3s , box-shadow 0.3s;
+}
+#btn:hover{
+    background-color:#444;
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0.3);
+}
+.social-icons{
+    display: flex;
+   position: relative;
+   text-align: center;
+   margin-top: 68%;
+   gap: 30px;
+   margin-left:34%;  
+
+}
+.facebook{
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color:#3b5998;
+    color: white;
+    text-decoration: none;
+}
+.facebook:hover{
+    background-color: #2d4373;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 5px black;
+}
+
+.linkedin{
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+
+}
+.linkedin:hover{
+    background-color: #005582;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 5px black;
+}
+.twitter{
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color:#1da1f2;
+    color: white;
+    text-decoration: none;
+}
+.twitter:hover{
+    background-color: #1991da;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 5px black;
+}
+.instagram{
+    border: 1px solid black;
+    background-color: #e1306c;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+.instagram:hover{
+    background-color: #c2185b;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 5px black;
+}
+
+
+
